@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  input[type="text"]:focus {
+    border-color: dodgerblue;
+  }
+  input[type="text"]:hover {
+    border-color: lightblue;
+  }
